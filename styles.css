@@ -1,11 +1,12 @@
 /*  your css code here. If applicable */
 .grid-container{
-    display:grid;
-    grid-template-columns:107px 107px 107px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 321px;
 }
 
 .grid-item{
-    background-color:#f2f2f2;
-    border:1px solid #ccc;
-    text-align:center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-align: center;
 }
