@@ -2,8 +2,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* Add spacing between grid items */
-    width: 60%; /* Set a specific width */
+    gap: 5px;
+    width: 322;
     margin: auto; /* Center the container */
 }
 
